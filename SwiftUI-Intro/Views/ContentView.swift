@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUI-Intro
-//
-//  Created by Ncube on 05.05.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
