@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct CalculatorView: View {
+struct CalculatorViewViaClass: View {
 
-    @State var viewModel: CalculatorViewModel
+    @ObservedObject var viewModel: CalculatorViewModelViaClass
     
     var body: some View {
             VStack {
@@ -61,9 +61,9 @@ struct CalculatorView: View {
         }
 }
 
-struct CalculatorView_Previews: PreviewProvider {
+struct CalculatorViewViaClass_Previews: PreviewProvider {
     static var previews: some View {
-        let viewModel = CalculatorViewModel()
-        CalculatorView(viewModel: viewModel)
+        let viewModel = CalculatorViewModelViaClass()
+        CalculatorViewViaClass(viewModel: viewModel)
     }
 }

@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD025F782825CECE00D28057 /* ViewCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD025F772825CECD00D28057 /* ViewCombination.swift */; };
+		DD025F7A2825D9FC00D28057 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD025F792825D9FC00D28057 /* ListView.swift */; };
 		DD47B4882823CD6C00675CF4 /* SwiftUI_IntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */; };
 		DD47B48A2823CD6C00675CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47B4892823CD6C00675CF4 /* ContentView.swift */; };
 		DD47B48C2823CD6F00675CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD47B48B2823CD6F00675CF4 /* Assets.xcassets */; };
 		DD47B48F2823CD6F00675CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD47B48E2823CD6F00675CF4 /* Preview Assets.xcassets */; };
+		DD9908DB2827D2700073117D /* ExampleRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9908DA2827D2700073117D /* ExampleRepresentable.swift */; };
+		DDC3F1382827C11A00A4E8EA /* Buttons+ActionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F1362827BEDB00A4E8EA /* Buttons+ActionDialog.swift */; };
+		DDC3F13A2827C14C00A4E8EA /* TabBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F1392827C14C00A4E8EA /* TabBarExample.swift */; };
+		DDC3F13C2827C72200A4E8EA /* NavigationExample+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F13B2827C72200A4E8EA /* NavigationExample+Image.swift */; };
+		DDC3F1402827CC8500A4E8EA /* Buttons+SomeAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F13F2827CC8500A4E8EA /* Buttons+SomeAnimations.swift */; };
+		DDC3F1432827CFEA00A4E8EA /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F1422827CFEA00A4E8EA /* GeometryReaderExample.swift */; };
+		DDE1CC5E2823F02F00344033 /* CalculatorViewModelViaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC5C2823F02F00344033 /* CalculatorViewModelViaClass.swift */; };
+		DDE1CC5F2823F03B00344033 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC5A2823F02F00344033 /* CalculatorViewModel.swift */; };
+		DDE1CC602823F03B00344033 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC592823F02F00344033 /* CalculatorView.swift */; };
+		DDE1CC622823F06D00344033 /* CalculatorViewViaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC612823F06C00344033 /* CalculatorViewViaClass.swift */; };
+		DDE5DBF42827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF32827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift */; };
+		DDE5DBF72827FA10005CA4E3 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF62827FA10005CA4E3 /* ItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD025F772825CECD00D28057 /* ViewCombination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCombination.swift; sourceTree = "<group>"; };
+		DD025F792825D9FC00D28057 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DD47B4842823CD6C00675CF4 /* SwiftUI-Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IntroApp.swift; sourceTree = "<group>"; };
 		DD47B4892823CD6C00675CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD47B48B2823CD6F00675CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD47B48E2823CD6F00675CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD9908DA2827D2700073117D /* ExampleRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRepresentable.swift; sourceTree = "<group>"; };
+		DDC3F1362827BEDB00A4E8EA /* Buttons+ActionDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttons+ActionDialog.swift"; sourceTree = "<group>"; };
+		DDC3F1392827C14C00A4E8EA /* TabBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExample.swift; sourceTree = "<group>"; };
+		DDC3F13B2827C72200A4E8EA /* NavigationExample+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NavigationExample+Image.swift"; path = "../NavigationExample+Image.swift"; sourceTree = "<group>"; };
+		DDC3F13F2827CC8500A4E8EA /* Buttons+SomeAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttons+SomeAnimations.swift"; sourceTree = "<group>"; };
+		DDC3F1422827CFEA00A4E8EA /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
+		DDE1CC592823F02F00344033 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		DDE1CC5A2823F02F00344033 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		DDE1CC5C2823F02F00344033 /* CalculatorViewModelViaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelViaClass.swift; sourceTree = "<group>"; };
+		DDE1CC612823F06C00344033 /* CalculatorViewViaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewViaClass.swift; sourceTree = "<group>"; };
+		DDE5DBF32827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftUIInUIKit.swift; sourceTree = "<group>"; };
+		DDE5DBF62827FA10005CA4E3 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD025F762825CEB100D28057 /* ViewsRepresentation */ = {
+			isa = PBXGroup;
+			children = (
+				DD025F772825CECD00D28057 /* ViewCombination.swift */,
+				DDC3F1362827BEDB00A4E8EA /* Buttons+ActionDialog.swift */,
+				DDC3F13F2827CC8500A4E8EA /* Buttons+SomeAnimations.swift */,
+				DD025F792825D9FC00D28057 /* ListView.swift */,
+				DDC3F13B2827C72200A4E8EA /* NavigationExample+Image.swift */,
+				DDC3F1392827C14C00A4E8EA /* TabBarExample.swift */,
+				DDC3F1422827CFEA00A4E8EA /* GeometryReaderExample.swift */,
+			);
+			path = ViewsRepresentation;
+			sourceTree = "<group>";
+		};
 		DD47B47B2823CD6C00675CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +94,12 @@
 			isa = PBXGroup;
 			children = (
 				DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */,
-				DD47B4892823CD6C00675CF4 /* ContentView.swift */,
+				DDE1CC542823CE8900344033 /* Views */,
+				DDE1CC552823D27F00344033 /* Calculator-EquatableStruct */,
+				DDE1CC582823F02F00344033 /* Calculator-Class */,
+				DD025F762825CEB100D28057 /* ViewsRepresentation */,
+				DD9908D92827D2220073117D /* UIViewRepresentable */,
+				DDE5DBF52827F9F6005CA4E3 /* SwiftUI+RxSwift */,
 				DD47B48B2823CD6F00675CF4 /* Assets.xcassets */,
 				DD47B48D2823CD6F00675CF4 /* Preview Content */,
 			);
@@ -65,6 +112,49 @@
 				DD47B48E2823CD6F00675CF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD9908D92827D2220073117D /* UIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				DD9908DA2827D2700073117D /* ExampleRepresentable.swift */,
+				DDE5DBF32827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift */,
+			);
+			path = UIViewRepresentable;
+			sourceTree = "<group>";
+		};
+		DDE1CC542823CE8900344033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD47B4892823CD6C00675CF4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDE1CC552823D27F00344033 /* Calculator-EquatableStruct */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1CC592823F02F00344033 /* CalculatorView.swift */,
+				DDE1CC5A2823F02F00344033 /* CalculatorViewModel.swift */,
+			);
+			path = "Calculator-EquatableStruct";
+			sourceTree = "<group>";
+		};
+		DDE1CC582823F02F00344033 /* Calculator-Class */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1CC612823F06C00344033 /* CalculatorViewViaClass.swift */,
+				DDE1CC5C2823F02F00344033 /* CalculatorViewModelViaClass.swift */,
+			);
+			path = "Calculator-Class";
+			sourceTree = "<group>";
+		};
+		DDE5DBF52827F9F6005CA4E3 /* SwiftUI+RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5DBF62827FA10005CA4E3 /* ItemList.swift */,
+			);
+			path = "SwiftUI+RxSwift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +227,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE1CC5F2823F03B00344033 /* CalculatorViewModel.swift in Sources */,
+				DD025F782825CECE00D28057 /* ViewCombination.swift in Sources */,
+				DDE1CC622823F06D00344033 /* CalculatorViewViaClass.swift in Sources */,
 				DD47B48A2823CD6C00675CF4 /* ContentView.swift in Sources */,
+				DDE5DBF72827FA10005CA4E3 /* ItemList.swift in Sources */,
+				DDE1CC602823F03B00344033 /* CalculatorView.swift in Sources */,
+				DDC3F1432827CFEA00A4E8EA /* GeometryReaderExample.swift in Sources */,
+				DDE1CC5E2823F02F00344033 /* CalculatorViewModelViaClass.swift in Sources */,
+				DDE5DBF42827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift in Sources */,
+				DD9908DB2827D2700073117D /* ExampleRepresentable.swift in Sources */,
+				DDC3F13A2827C14C00A4E8EA /* TabBarExample.swift in Sources */,
+				DDC3F13C2827C72200A4E8EA /* NavigationExample+Image.swift in Sources */,
+				DDC3F1382827C11A00A4E8EA /* Buttons+ActionDialog.swift in Sources */,
+				DDC3F1402827CC8500A4E8EA /* Buttons+SomeAnimations.swift in Sources */,
+				DD025F7A2825D9FC00D28057 /* ListView.swift in Sources */,
 				DD47B4882823CD6C00675CF4 /* SwiftUI_IntroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

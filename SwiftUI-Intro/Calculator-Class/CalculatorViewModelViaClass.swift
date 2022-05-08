@@ -1,6 +1,7 @@
 import Foundation
+import Combine
 
-struct CalculatorViewModel {
+class CalculatorViewModelViaClass: ObservableObject {
     enum CalculatorViewModelAction {
         case plus, minus, multiply, equal, divide, clean
     }
@@ -17,11 +18,20 @@ struct CalculatorViewModel {
     var shouldCleanTheField: Bool = false
 
     var currentValue: Decimal = 0
-    var bindingString: String = "0"
     
+     // MARK: The string that detects the change on the class should be marked as @Published
+     @Published var bindingString: String = "0"
+
+    // MARK: The string that detects the change on the class should call objectWillChange.send()
+    //    var bindingString: String = "0" {
+    //        didSet {
+    //            objectWillChange.send()
+    //        }
+    //    }
+
     init() { }
 
-    mutating func buttonPressed(with title: String) {
+    func buttonPressed(with title: String) {
         switch title {
         case "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".":
             if shouldCleanTheField {
@@ -63,7 +73,7 @@ struct CalculatorViewModel {
         }
     }
 
-    mutating func fillResult() {
+    func fillResult() {
         switch lastAction {
         case .plus:
             currentValue = currentValue + (Decimal(string: bindingString) ?? 0)
