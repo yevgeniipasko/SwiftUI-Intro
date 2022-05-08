@@ -10,9 +10,11 @@
 		DD025F782825CECE00D28057 /* ViewCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD025F772825CECD00D28057 /* ViewCombination.swift */; };
 		DD025F7A2825D9FC00D28057 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD025F792825D9FC00D28057 /* ListView.swift */; };
 		DD47B4882823CD6C00675CF4 /* SwiftUI_IntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */; };
-		DD47B48A2823CD6C00675CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47B4892823CD6C00675CF4 /* ContentView.swift */; };
 		DD47B48C2823CD6F00675CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD47B48B2823CD6F00675CF4 /* Assets.xcassets */; };
 		DD47B48F2823CD6F00675CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD47B48E2823CD6F00675CF4 /* Preview Assets.xcassets */; };
+		DD48B347282810CD005BDEFF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DD48B346282810CD005BDEFF /* Kingfisher */; };
+		DD48B34928281279005BDEFF /* YummlyListDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48B34828281278005BDEFF /* YummlyListDetailedView.swift */; };
+		DD48B34B28281296005BDEFF /* YummlyListDetailedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48B34A28281296005BDEFF /* YummlyListDetailedViewModel.swift */; };
 		DD9908DB2827D2700073117D /* ExampleRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9908DA2827D2700073117D /* ExampleRepresentable.swift */; };
 		DDC3F1382827C11A00A4E8EA /* Buttons+ActionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F1362827BEDB00A4E8EA /* Buttons+ActionDialog.swift */; };
 		DDC3F13A2827C14C00A4E8EA /* TabBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F1392827C14C00A4E8EA /* TabBarExample.swift */; };
@@ -24,7 +26,11 @@
 		DDE1CC602823F03B00344033 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC592823F02F00344033 /* CalculatorView.swift */; };
 		DDE1CC622823F06D00344033 /* CalculatorViewViaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1CC612823F06C00344033 /* CalculatorViewViaClass.swift */; };
 		DDE5DBF42827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF32827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift */; };
-		DDE5DBF72827FA10005CA4E3 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF62827FA10005CA4E3 /* ItemList.swift */; };
+		DDE5DBF72827FA10005CA4E3 /* YummlyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF62827FA10005CA4E3 /* YummlyList.swift */; };
+		DDE5DBF92827FD5D005CA4E3 /* YummlyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5DBF82827FD5D005CA4E3 /* YummlyListViewModel.swift */; };
+		DDE5DBFE2827FE71005CA4E3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DDE5DBFD2827FE71005CA4E3 /* RxCocoa */; };
+		DDE5DC002827FE71005CA4E3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DDE5DBFF2827FE71005CA4E3 /* RxRelay */; };
+		DDE5DC022827FE71005CA4E3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DDE5DC012827FE71005CA4E3 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +38,10 @@
 		DD025F792825D9FC00D28057 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DD47B4842823CD6C00675CF4 /* SwiftUI-Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IntroApp.swift; sourceTree = "<group>"; };
-		DD47B4892823CD6C00675CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD47B48B2823CD6F00675CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD47B48E2823CD6F00675CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD48B34828281278005BDEFF /* YummlyListDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummlyListDetailedView.swift; sourceTree = "<group>"; };
+		DD48B34A28281296005BDEFF /* YummlyListDetailedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummlyListDetailedViewModel.swift; sourceTree = "<group>"; };
 		DD9908DA2827D2700073117D /* ExampleRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRepresentable.swift; sourceTree = "<group>"; };
 		DDC3F1362827BEDB00A4E8EA /* Buttons+ActionDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttons+ActionDialog.swift"; sourceTree = "<group>"; };
 		DDC3F1392827C14C00A4E8EA /* TabBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExample.swift; sourceTree = "<group>"; };
@@ -46,7 +53,8 @@
 		DDE1CC5C2823F02F00344033 /* CalculatorViewModelViaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelViaClass.swift; sourceTree = "<group>"; };
 		DDE1CC612823F06C00344033 /* CalculatorViewViaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewViaClass.swift; sourceTree = "<group>"; };
 		DDE5DBF32827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftUIInUIKit.swift; sourceTree = "<group>"; };
-		DDE5DBF62827FA10005CA4E3 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		DDE5DBF62827FA10005CA4E3 /* YummlyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummlyList.swift; sourceTree = "<group>"; };
+		DDE5DBF82827FD5D005CA4E3 /* YummlyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummlyListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD48B347282810CD005BDEFF /* Kingfisher in Frameworks */,
+				DDE5DC002827FE71005CA4E3 /* RxRelay in Frameworks */,
+				DDE5DBFE2827FE71005CA4E3 /* RxCocoa in Frameworks */,
+				DDE5DC022827FE71005CA4E3 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				DD47B4872823CD6C00675CF4 /* SwiftUI_IntroApp.swift */,
-				DDE1CC542823CE8900344033 /* Views */,
-				DDE1CC552823D27F00344033 /* Calculator-EquatableStruct */,
-				DDE1CC582823F02F00344033 /* Calculator-Class */,
 				DD025F762825CEB100D28057 /* ViewsRepresentation */,
 				DD9908D92827D2220073117D /* UIViewRepresentable */,
+				DDE1CC582823F02F00344033 /* Calculator-Class */,
+				DDE1CC552823D27F00344033 /* Calculator-EquatableStruct */,
 				DDE5DBF52827F9F6005CA4E3 /* SwiftUI+RxSwift */,
 				DD47B48B2823CD6F00675CF4 /* Assets.xcassets */,
 				DD47B48D2823CD6F00675CF4 /* Preview Content */,
@@ -123,14 +134,6 @@
 			path = UIViewRepresentable;
 			sourceTree = "<group>";
 		};
-		DDE1CC542823CE8900344033 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DD47B4892823CD6C00675CF4 /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		DDE1CC552823D27F00344033 /* Calculator-EquatableStruct */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +155,10 @@
 		DDE5DBF52827F9F6005CA4E3 /* SwiftUI+RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DDE5DBF62827FA10005CA4E3 /* ItemList.swift */,
+				DDE5DBF62827FA10005CA4E3 /* YummlyList.swift */,
+				DDE5DBF82827FD5D005CA4E3 /* YummlyListViewModel.swift */,
+				DD48B34828281278005BDEFF /* YummlyListDetailedView.swift */,
+				DD48B34A28281296005BDEFF /* YummlyListDetailedViewModel.swift */,
 			);
 			path = "SwiftUI+RxSwift";
 			sourceTree = "<group>";
@@ -173,6 +179,12 @@
 			dependencies = (
 			);
 			name = "SwiftUI-Intro";
+			packageProductDependencies = (
+				DDE5DBFD2827FE71005CA4E3 /* RxCocoa */,
+				DDE5DBFF2827FE71005CA4E3 /* RxRelay */,
+				DDE5DC012827FE71005CA4E3 /* RxSwift */,
+				DD48B346282810CD005BDEFF /* Kingfisher */,
+			);
 			productName = "SwiftUI-Intro";
 			productReference = DD47B4842823CD6C00675CF4 /* SwiftUI-Intro.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +213,10 @@
 				Base,
 			);
 			mainGroup = DD47B47B2823CD6C00675CF4;
+			packageReferences = (
+				DDE5DBFA2827FE71005CA4E3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DD48B345282810CD005BDEFF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DD47B4852823CD6C00675CF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,14 +246,16 @@
 				DDE1CC5F2823F03B00344033 /* CalculatorViewModel.swift in Sources */,
 				DD025F782825CECE00D28057 /* ViewCombination.swift in Sources */,
 				DDE1CC622823F06D00344033 /* CalculatorViewViaClass.swift in Sources */,
-				DD47B48A2823CD6C00675CF4 /* ContentView.swift in Sources */,
-				DDE5DBF72827FA10005CA4E3 /* ItemList.swift in Sources */,
+				DDE5DBF72827FA10005CA4E3 /* YummlyList.swift in Sources */,
 				DDE1CC602823F03B00344033 /* CalculatorView.swift in Sources */,
+				DD48B34928281279005BDEFF /* YummlyListDetailedView.swift in Sources */,
 				DDC3F1432827CFEA00A4E8EA /* GeometryReaderExample.swift in Sources */,
 				DDE1CC5E2823F02F00344033 /* CalculatorViewModelViaClass.swift in Sources */,
 				DDE5DBF42827D399005CA4E3 /* ExampleSwiftUIInUIKit.swift in Sources */,
+				DDE5DBF92827FD5D005CA4E3 /* YummlyListViewModel.swift in Sources */,
 				DD9908DB2827D2700073117D /* ExampleRepresentable.swift in Sources */,
 				DDC3F13A2827C14C00A4E8EA /* TabBarExample.swift in Sources */,
+				DD48B34B28281296005BDEFF /* YummlyListDetailedViewModel.swift in Sources */,
 				DDC3F13C2827C72200A4E8EA /* NavigationExample+Image.swift in Sources */,
 				DDC3F1382827C11A00A4E8EA /* Buttons+ActionDialog.swift in Sources */,
 				DDC3F1402827CC8500A4E8EA /* Buttons+SomeAnimations.swift in Sources */,
@@ -445,6 +463,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD48B345282810CD005BDEFF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 7.2.2;
+			};
+		};
+		DDE5DBFA2827FE71005CA4E3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD48B346282810CD005BDEFF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD48B345282810CD005BDEFF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DDE5DBFD2827FE71005CA4E3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE5DBFA2827FE71005CA4E3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		DDE5DBFF2827FE71005CA4E3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE5DBFA2827FE71005CA4E3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		DDE5DC012827FE71005CA4E3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE5DBFA2827FE71005CA4E3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD47B47C2823CD6C00675CF4 /* Project object */;
 }

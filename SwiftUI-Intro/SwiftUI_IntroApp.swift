@@ -4,7 +4,8 @@ import SwiftUI
 struct SwiftUI_IntroApp: App {
     var body: some Scene {
         WindowGroup {
-            CalculatorView(viewModel: CalculatorViewModel())
+            YummlyList(viewModel: YummlyListViewModel())
+            //CalculatorView(viewModel: CalculatorViewModel())
         }
     }
 }
