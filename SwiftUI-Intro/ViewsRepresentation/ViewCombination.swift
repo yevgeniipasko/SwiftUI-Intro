@@ -2,6 +2,9 @@ import SwiftUI
 
 struct ViewCombination: View {
     @State private var username: String = ""
+    @State private var value: Float = 0
+
+    var isEditing: Bool = false
 
     var body: some View {
         NavigationView {
@@ -55,6 +58,18 @@ struct ViewCombination: View {
                 }
                 .frame(height: 104)
                 .background(.green)
+                Text("\(value)")
+                Slider(
+                    value: $value,
+                    in: 0...100,
+                    step: 5
+                ) {
+                    Text("Speed")
+                } minimumValueLabel: {
+                    Text("0")
+                } maximumValueLabel: {
+                    Text("100")
+                }
                 Spacer()
             }
             .navigationTitle("View examples")
