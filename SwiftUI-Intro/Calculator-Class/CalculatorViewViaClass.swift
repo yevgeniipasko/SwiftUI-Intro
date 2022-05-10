@@ -2,7 +2,7 @@ import SwiftUI
 
 struct CalculatorViewViaClass: View {
 
-    @ObservedObject var viewModel: CalculatorViewModelViaClass
+    @StateObject var viewModel: CalculatorViewModelViaClass
     
     var body: some View {
             VStack {
